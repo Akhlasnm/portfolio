@@ -1,0 +1,430 @@
+body{
+    background-image: linear-gradient(to right,black,rgb(4, 4, 100),black);
+}
+
+
+#navbar{
+
+    display: flex;
+    background-image: linear-gradient(to right,black,rgb(4, 4, 100),black);
+    height: 100px;
+    color: rgb(249, 217, 148);
+    justify-content: end;
+    align-items: center;
+    font-size: 20px;
+    justify-content: space-between;
+    
+    
+}
+
+#myname{
+    margin-right: 40vw;
+    
+}
+
+.LIST{
+    list-style-type: none;
+    
+    
+}
+.LIST:hover{
+    color: rgb(63, 75, 242);
+    transform:translateY(5px)
+}
+ 
+#pic{
+
+ 
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    padding: 100px;
+    
+}
+#text{
+    margin-right: 100px;
+}
+
+#about{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+   
+}
+ 
+#abouttext{
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: column;
+   align-items: flex-start;
+}
+#abouthead{
+    margin-bottom: 20px;
+}
+ #skillbox{
+  
+    height: 100px;
+    width: 600px;
+    background-color: black;
+    border: 1px solid white;
+    
+   
+    
+}
+#aboutbtn{
+  
+   color: black;
+    border: 1px solid white;
+} 
+
+#domproj{
+    width:300px;
+    height: 400px;
+    background-color: rgb(251, 251, 251);
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 0.5cm;
+}
+#domimg{
+    width: 300px;
+    height:300px;
+    border-radius: 0.5cm;
+}
+#navproj{
+    width:300px;
+    height: 400px;
+    background-color: rgb(251, 251, 251);
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 0.5cm;
+}
+#navimg{
+    width: 300px;
+    height:300px;
+    border-radius: 0.5cm;
+}
+#easeproj{
+    width:300px;
+    height: 400px;
+    background-color: rgb(251, 251, 251);
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 0.5cm;
+}
+#easeimg{
+    width: 300px;
+    height:300px;
+    border-radius: 0.5cm;
+}
+#proj{
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+    
+}
+#projhead{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    color: rgb(156, 208, 253);
+}
+#domproj:hover{
+    background-color: rgb(1, 15, 35);
+    color: rgb(99, 180, 247);
+    transform:translateY(-20px);
+    transition: all 0.3s ease;
+    
+}
+#navproj:hover{
+    background-color: rgb(1, 15, 35);
+    color: rgb(99, 180, 247);
+    transform:translateY(-20px);
+    transition: all 0.3s ease;
+}
+#easeproj:hover{
+    background-color: rgb(1, 15, 35);
+    color: rgb(99, 180, 247);
+    transform:translateY(-20px);
+    transition: all 0.3s ease;
+}
+
+#contactdiv{
+    
+    margin-top: 300px;
+    display: flex;
+    height: 500px;
+
+}
+#con{
+    color: white;
+    font-size: 60px;
+    
+}
+#mail{
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+#mail:hover{
+    color: rgb(255, 205, 145);
+    transform:translateY(-5px);
+    transition: all 0.3s ease;
+}
+#phone{
+    color: rgb(255, 255, 255);
+    
+    
+    
+}
+     
+#phone:hover{
+    color: rgb(255, 205, 145);
+    transform:translateY(-5px);
+    transition: all 0.3s ease;
+}
+#contbox{
+   
+
+ margin-left: 100px;
+ 
+}
+
+#numb{
+    display: flex;
+    justify-content: space-between;
+}
+
+#EandP{
+    margin-top: 50px;
+}
+#mail{
+    margin: 50px;
+}
+#phone{
+    margin: 50px;
+}
+.abc{
+    display:flex ;
+    flex-direction: column;
+    width: 500px;
+}
+.input{
+    width: 100%;
+   
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(40, 37, 37);
+    padding: 10px;
+    margin: 20px;
+    color: rgb(255, 207, 148);
+}
+.input:hover{
+    background-color: black;
+    border: 1px solid rgb(255, 207, 139);
+    transform: translateY(-5px);
+    transition: all 0.3s ease
+}
+#mesg{
+    height: 150px;
+}
+#sub{
+    background-color: rgb(3, 3, 145);
+    color: rgb(250, 197, 133);
+    width: 100%;
+    max-width: 700p;
+    margin: 20px;
+    padding: 10px;
+}
+#social{
+    gap: 40px;
+    margin: 50px;
+    justify-content:flex-start; 
+     align-items:start;
+    display: flex;
+    
+}
+#linkedin:hover{
+  color: rgba(22, 22, 206, 0.967);
+  transform: scale(1.2);
+}
+#insta:hover{
+    color: rgb(247, 53, 95);
+  transform: scale(1.2);
+}
+#whatsapp:hover{
+     color: rgb(3, 107, 3);
+  transform: scale(1.2);
+}
+#skillhead{
+
+    display: flex;
+    margin: 100px;
+    color: rgb(71, 165, 248);
+    justify-content: center;
+    
+}
+#skill{
+    
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+#html{
+
+    width:300px;
+    height: 400px;
+    background-color: rgb(251, 251, 251);
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 0.5cm;
+}
+#css{
+
+    width:300px;
+    height: 400px;
+    background-color: rgb(251, 251, 251);
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 0.5cm;
+}
+#JavaScript{
+
+    width:300px;
+    height: 400px;
+    background-color: rgb(251, 251, 251);
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 0.5cm;
+}
+#htmlimg{
+    width: 300px;
+    height:300px;
+    border-radius: 0.5cm;
+}
+#cssimg{
+    width: 300px;
+    height:300px;
+    border-radius: 0.5cm;
+}
+#jsimg{
+    width: 300px;
+    height:300px;
+    border-radius: 0.5cm;
+}
+#html:hover{
+     background-color: rgb(1, 15, 35);
+    color: rgb(99, 180, 247);
+    transform:translateY(-20px);
+    transition: all 0.3s ease;
+}
+#css:hover{
+     background-color: rgb(1, 15, 35);
+    color: rgb(99, 180, 247);
+    transform:translateY(-20px);
+    transition: all 0.3s ease;
+}
+#JavaScript:hover{
+     background-color: rgb(1, 15, 35);
+    color: rgb(99, 180, 247);
+    transform:translateY(-20px);
+    transition: all 0.3s ease;
+}
+#whatsapp {
+  font-size: 30px; 
+}
+#insta {
+  font-size: 30px; 
+}
+#linkedin{
+  font-size: 30px; 
+}
+#social i {
+  margin-right: 15px;
+}
+
+@media (max-width: 1280px) {
+  #pic {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+  }
+
+  #text {
+    margin: 0 0 20px 0;
+  }
+
+  #proj, #skill {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #contactdiv {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+  #contbox {
+    width: 100%;
+    margin: 20px;
+  }
+ .abc {
+    width: 100%;
+    margin: 20px;
+  }
+   .input {
+    max-width: 600px;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  #skillhead h1,
+  #projhead h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  #skillhead h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+
+  #about img {
+    width: 100%;
+    height: auto;
+  }
+
+  #proj > div,
+  #skill > div {
+    width: 90%;
+  }
+    #about {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #abouttext {
+    width: 90%;
+    padding: 20px;
+  }
+  #aboutpara p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+@media (min-width: 1024px) {
+  .input {
+    max-width: 700px !important;
+  }
+
+  #sub {
+    max-width: 700px !important;
+  }
+}
+  
+
+ 
